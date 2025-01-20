@@ -1,4 +1,5 @@
-const posts = [
+
+export const posts = [
     {
         name: "Vincent van Gogh",
         username: "vincey1853",

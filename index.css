@@ -3,23 +3,22 @@
                 
 
 html, body {
-    margin: 0 auto;
-    padding: 0;
+    margin: 0px auto;
+    background-color: #EDEDED;
 }
 
 /* logo and profile pic section */
 
 header {
-    display: block;
-    justify-content: start;
+    width: 375px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
 }
 
 .profile-wrapper {
-    max-width: 375px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #C6C6C6
+    border-bottom: 1px solid #C6C6C6;
 
 }
 
@@ -29,28 +28,23 @@ header {
     
 }
 
-.avatar {
+.profile-wrapper .avatar , .post-wrapper .avatar{
     border-radius: 100px;
     width: 44px;
     height: 44px;
 }
 
+.post-wrapper .avatar{
+    margin: 10px 0 0 10px;
+}
+
 /* post body section  */
 
 section {
-    display: block;
-    justify-content: start;
-    
-}
-
-.post-wrapper {
     width: 375px;
-    margin: 10px auto;
-    display: block;
-
-
-    gap: 10px;
-
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    
 }
 
 .profile-name {
@@ -79,21 +73,27 @@ p {
 }
 
 .post-content {
-    width: 375px;
-    height: 375px;
     margin: 10px auto;
+    padding-bottom: 30px;
+}
+
+.post-body {
+    background-color: #FFFFFF;
 }
 
 .post-pic {
     width: 375px;
-    height: 375px;
 }
 
 .icon {
     width: 30px;
     height: 30px;
-    margin: 20px 0;
-}   
+    margin: 20px 5px;
+}
+
+.reaction-icons ,.like-counter{
+    margin: 0 0 15px 10px;
+}
 
 .like-counter {
     font-family: Source Sans Pro;
